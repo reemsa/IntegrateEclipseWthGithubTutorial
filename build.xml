@@ -1,1 +1,8 @@
-<project default="compile">
+<project>
+
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes"/>
+    </target>
+
+</project>
